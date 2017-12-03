@@ -16,7 +16,7 @@ having n more threads makes the algorithm n times faster, but of course this
 assumes a bit about your own computers hardware. So the increase of speed may
 diminish beyond a certain thread count.
 
-****************************************Hill***************************************
+****************************************Hill****************************************
 
 The Hill cipher portion of the program is divided into two sections: encrypt and
 decrypt. For encryption the user inputs a message and presses enter to validate
@@ -39,7 +39,7 @@ Upon entering the key the inverse mod of the key is calculated and multiplied by
 each block of the message to give the decrypted message. Both the decrypted message
 and the inverse mod of the key matrix are then printed to screen.
 
-#Libraries
+# Libraries
 The GUI was all built on top of a library called Kivy which is free, easy to use,
 and can be found at:
 https://kivy.org/
@@ -48,16 +48,16 @@ Most of the complex math operations were done using a library sympy. Sympy is
 free and can be found at:
 https://sympy.org
 
-#Math
+# Math
 For more information on the math used in this project consider visiting
 https://simple.wikipedia.org/wiki/RSA_(algorithm)
 or
 https://en.wikipedia.org/wiki/Hill_cipher
 
-#Source Code
+# Source Code
 This project was made in python and the code for which can be found online at the
 git repository:
 https://github.com/elitej13/project-crypto-tools
 
-#License
-This project uses an MIT license which can be found in the same folder as this document.
+# License
+This project uses an MIT license which can be found in the same folder as this document or in the git repo.
